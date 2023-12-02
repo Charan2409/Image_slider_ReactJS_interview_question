@@ -1,0 +1,25 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.active-image {
+  visibility: visible;
+  padding: 10px;
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  border-radius: 10%;
+}
+.not-active {
+  display: none;
+  padding: 10px;
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+}
